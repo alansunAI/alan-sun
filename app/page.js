@@ -7,6 +7,23 @@ export default function Home() {
       <p style={{ marginTop: 16, opacity: 0.8 }}>
         La tua AI 24/7 per foto, testi, email ed esercizi.
       </p>
+
+      {/* Bottone Inizia Ora */}
+      <a 
+        href="/pricing" 
+        style={{ 
+          display: "inline-block",
+          marginTop: 32,
+          padding: "12px 24px",
+          borderRadius: 12,
+          background: "#FF7A00",
+          color: "#000",
+          fontWeight: 700,
+          fontSize: "1.2rem"
+        }}
+      >
+        Inizia ora
+      </a>
     </main>
   );
 }
